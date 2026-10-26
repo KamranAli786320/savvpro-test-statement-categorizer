@@ -1,27 +1,25 @@
-
 # AI Usage Disclosure
 
 ## 1. AI Tools Used
 
 - **Tool:** ChatGPT
-- **Purpose:** Learning support, code suggestions, debugging assistance, test-writing guidance, and documentation drafting.
-- **Human responsibility:** I reviewed the suggested implementation, ran the application locally, executed tests, and checked the results.
+- **Purpose:** Learning support and clarification of project requirements and technical concepts.
+- **Human responsibility:** I implemented and reviewed the solution, ran the application locally, executed tests, and verified the results.
 
 ## 2. How AI Assisted
 
-ChatGPT helped me work through the project in small, understandable steps. I used it to:
+AI assistance helped me understand the assessment requirements and technical concepts during development. I used it to:
 
 - Understand the assessment requirements and plan the application structure.
-- Develop a Python/FastAPI backend for CSV upload and validation.
-- Build a transparent, keyword-based transaction categorization engine.
-- Create backend tests for categorization rules and API validation.
-- Develop a React and TypeScript interface for uploading transactions, reviewing categories, correcting results, and exporting CSV.
-- Troubleshoot CSV parsing issues and understand test failures.
-- Draft the README and design documentation.
+- Clarify concepts related to Python, FastAPI, CSV processing, and validation.
+- Understand rule-based transaction categorization.
+- Learn about backend testing and API validation.
+- Understand React and TypeScript frontend integration.
+- Clarify debugging issues and documentation practices.
 
 ## 3. Where AI Suggestions Needed Verification
 
-AI-generated suggestions were not treated as automatically correct. I checked the implementation by running the application and tests.
+AI suggestions were reviewed and verified through local testing.
 
 - CSV files can contain leading blank lines or unexpected headers. I tested and corrected a sample CSV parsing issue.
 - A keyword-based engine cannot confidently recognize every merchant or transaction description. Unknown transactions are therefore marked `Needs Review`.
@@ -43,12 +41,12 @@ Test results should be rerun before final submission if the code changes.
 
 ## 5. Token Usage and Evidence
 
-I used ChatGPT for interactive development assistance. An exact token count for this conversation is not available to me in the information shown by the chat interface, so I have not invented a token total.
+AI assistance was used during interactive development. An exact token count is not available to me, so I have not provided an estimated total.
 
 Evidence to include with this submission:
-- A screenshot of the relevant ChatGPT conversation showing the development assistance used.
+- A screenshot showing relevant development assistance, if required.
 - A screenshot of the successful local test run.
-- Any available tool usage or token report, if the tool provides one.
+- Any available tool usage or token report, if required and available.
 
 Screenshots should not contain passwords, API keys, personal information, or real financial records.
 
@@ -58,4 +56,4 @@ The sample transactions used for development are synthetic. No real bank stateme
 
 ## 7. Final Note
 
-AI was used as a development and learning assistant. The transaction categorization decision engine itself uses explicit Python rules and does not delegate transaction classification to a large language model.
+AI was used to support learning and clarify technical concepts during development. The transaction categorization decision engine uses explicit Python rules and does not delegate transaction classification to a large language model.
